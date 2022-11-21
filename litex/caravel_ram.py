@@ -26,7 +26,8 @@ class GF180_RAM(Module):
             self.wen[2].eq(self.bus.sel[2] & self.bus.we & self.bus.stb & self.bus.cyc),
             self.wen[3].eq(self.bus.sel[3] & self.bus.we & self.bus.stb & self.bus.cyc),
             self.bus.dat_r[0:32].eq(self.q),
-            self.cen.eq(~(self.bus.stb & self.bus.cyc)),
+            self.cen.eq(0),
+            self.gwen.eq(self.bus.stb & self.bus.cyc),
         ]
 
         self.specials += Instance("GF180_RAM_512x32",
