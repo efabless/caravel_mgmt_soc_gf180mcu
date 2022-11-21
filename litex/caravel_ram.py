@@ -3,6 +3,45 @@ from litex.soc.interconnect import wishbone
 
 kB = 1024
 
+
+class GF180_RAM(Module):
+    def __init__(self, width=32, size=2*kB):
+        self.bus = wishbone.Interface(width)
+
+        # # #
+        assert width in [32]
+        assert size in [2*kB]
+
+        self.d     = Signal(32)
+        self.q     = Signal(32)
+        self.wen   = Signal(4)
+        self.gwen  = Signal()
+        self.cen  = Signal()
+
+        self.comb += [
+            self.d.eq(self.bus.dat_w[0:32]),
+            # self.we.eq((self.bus.we & self.bus.stb & self.bus.cyc)),
+            self.wen[0].eq(self.bus.sel[0] & self.bus.we & self.bus.stb & self.bus.cyc),
+            self.wen[1].eq(self.bus.sel[1] & self.bus.we & self.bus.stb & self.bus.cyc),
+            self.wen[2].eq(self.bus.sel[2] & self.bus.we & self.bus.stb & self.bus.cyc),
+            self.wen[3].eq(self.bus.sel[3] & self.bus.we & self.bus.stb & self.bus.cyc),
+            self.bus.dat_r[0:32].eq(self.q),
+            self.cen.eq(~(self.bus.stb & self.bus.cyc)),
+        ]
+
+        self.specials += Instance("GF180_RAM_512x32",
+                                  i_CLK=ClockSignal("sys"),
+                                  i_CEN=self.cen,
+                                  i_GWEN=self.gwen,
+                                  i_WEN=self.wen,
+                                  i_A=self.bus.adr[:9],
+                                  i_D=self.d,
+                                  o_Q=self.q
+        )
+
+        self.sync += self.bus.ack.eq(self.bus.stb & self.bus.cyc & ~self.bus.ack)
+
+
 class OpenRAM(Module):
     def __init__(self, width=32, size=1*kB):
         self.bus = wishbone.Interface(width)

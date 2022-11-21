@@ -36,6 +36,7 @@ from caravel_ram import *
 #     "csr": 0x20000000,
 # }
 
+
 # MGMTSoC
 class MGMTSoC(SoCMini):
 
@@ -76,8 +77,9 @@ class MGMTSoC(SoCMini):
                              **kwargs)
 
             self.mem_map = {
-                "dff": 0x00000000,
-                "dff2": 0x00000400,
+                "sram": 0x00000000,
+                # "dff": 0x00000000,
+                # "dff2": 0x00000400,
                 # "sram": 0x01000000,
                 "flash": 0x10000000,
                 "mprj": 0x30000000,
@@ -142,10 +144,15 @@ class MGMTSoC(SoCMini):
             print("ERROR - cpu value not recognized")
             exit()
 
+        #GF180_RAM
+        sram_size = 2 * 1024
+        sram = self.submodules.mem = GF180_RAM(size=sram_size)
+        self.register_mem("sram", self.mem_map["sram"], self.mem.bus, sram_size)
+
         #DFFRAM
-        dff_size = 1 * 1024
-        dff = self.submodules.mem = DFFRAM(size=dff_size)
-        self.register_mem("dff", self.mem_map["dff"], self.mem.bus, dff_size)
+        # dff_size = 1 * 1024
+        # dff = self.submodules.mem = DFFRAM(size=dff_size)
+        # self.register_mem("dff", self.mem_map["dff"], self.mem.bus, dff_size)
         # mgmt_soc_dff = platform.request("mgmt_soc_dff")
         # self.comb += mgmt_soc_dff.WE.eq(dff.we)
         # self.comb += mgmt_soc_dff.A.eq(dff.bus.adr)
@@ -154,9 +161,9 @@ class MGMTSoC(SoCMini):
         # self.comb += mgmt_soc_dff.EN.eq(dff.en)
 
         #DFFRAM2
-        dff2_size = 512
-        dff2 = self.submodules.mem2 = DFFRAM_512(size=dff2_size)
-        self.register_mem("dff2", self.mem_map["dff2"], self.mem2.bus, dff2_size)
+        # dff2_size = 512
+        # dff2 = self.submodules.mem2 = DFFRAM_512(size=dff2_size)
+        # self.register_mem("dff2", self.mem_map["dff2"], self.mem2.bus, dff2_size)
 
         # #OpenRAM
         # spram_size = 2 * 1024

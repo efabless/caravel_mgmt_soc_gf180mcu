@@ -42,10 +42,10 @@ wire [7:0] wen_3 = {8{WEN[3]}};
 
 
 
-GF018_5VGreen_SRAM_1P_512x8M8WM1 RAM00 ( .CLK(CLK), .CEN(CEN), .GWEN(gwen_0), .WEN(wen_0), .A(A[8:0]), .D(D[ 7: 0]), .Q(Q0[ 7: 0]), .VDD(VDD), .VSS(VSS) );
-GF018_5VGreen_SRAM_1P_512x8M8WM1 RAM01 ( .CLK(CLK), .CEN(CEN), .GWEN(gwen_0), .WEN(wen_1), .A(A[8:0]), .D(D[15: 8]), .Q(Q0[15: 8]), .VDD(VDD), .VSS(VSS) );
-GF018_5VGreen_SRAM_1P_512x8M8WM1 RAM02 ( .CLK(CLK), .CEN(CEN), .GWEN(gwen_0), .WEN(wen_2), .A(A[8:0]), .D(D[23:16]), .Q(Q0[23:16]), .VDD(VDD), .VSS(VSS) );
-GF018_5VGreen_SRAM_1P_512x8M8WM1 RAM03 ( .CLK(CLK), .CEN(CEN), .GWEN(gwen_0), .WEN(wen_3), .A(A[8:0]), .D(D[31:24]), .Q(Q0[31:24]), .VDD(VDD), .VSS(VSS) );
+gf180mcu_fd_ip_sram__sram512x8m8wm1 RAM00 ( .CLK(CLK), .CEN(CEN), .GWEN(gwen_0), .WEN(wen_0), .A(A[8:0]), .D(D[ 7: 0]), .Q(Q0[ 7: 0]), .VDD(VDD), .VSS(VSS) );
+gf180mcu_fd_ip_sram__sram512x8m8wm1 RAM01 ( .CLK(CLK), .CEN(CEN), .GWEN(gwen_0), .WEN(wen_1), .A(A[8:0]), .D(D[15: 8]), .Q(Q0[15: 8]), .VDD(VDD), .VSS(VSS) );
+gf180mcu_fd_ip_sram__sram512x8m8wm1 RAM02 ( .CLK(CLK), .CEN(CEN), .GWEN(gwen_0), .WEN(wen_2), .A(A[8:0]), .D(D[23:16]), .Q(Q0[23:16]), .VDD(VDD), .VSS(VSS) );
+gf180mcu_fd_ip_sram__sram512x8m8wm1 RAM03 ( .CLK(CLK), .CEN(CEN), .GWEN(gwen_0), .WEN(wen_3), .A(A[8:0]), .D(D[31:24]), .Q(Q0[31:24]), .VDD(VDD), .VSS(VSS) );
 
 
 assign Q = Q0;//A[9] ? Q1 : Q0;

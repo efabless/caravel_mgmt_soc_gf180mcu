@@ -62,7 +62,7 @@ module gpio_mgmt_tb;
 		$finish;
 	end
 
-	wire [127:0] la_output;	// Most of these are no-connects
+	wire [63:0] la_output;	// Most of these are no-connects
 	wire [15:0] checkbits;
 	reg  [7:0] checkbits_lo;
 	wire [7:0] checkbits_hi;
@@ -165,8 +165,8 @@ module gpio_mgmt_tb;
 
 	mgmt_core_wrapper uut (
 	`ifdef USE_POWER_PINS
-		.VPWR		  (VDD1V8),
-		.VGND		  (VSS),
+		.VDD		  (VDD1V8),
+		.VSS		  (VSS),
 	`endif
 		.core_clk	  (clock),
 		.core_rstn	  (RSTB),
@@ -219,10 +219,6 @@ module gpio_mgmt_tb;
         .spi_sdi(1'b0),
         .spi_sdo(),
         .spi_sdoenb(),
-        .sram_ro_csb(),
-        .sram_ro_clk(),
-        .sram_ro_addr(8'b0),
-        .sram_ro_data(),
         .trap(),
         .uart_enabled(),
         .irq(6'b0),
