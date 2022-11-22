@@ -8396,6 +8396,10 @@ sky130_sram_2kbyte_1rw1r_32x512_8 sky130_sram_2kbyte_1rw1r_32x512_8(
 );*/
 
 sram sram(
+	`ifdef USE_POWER_PINS
+	    .VDD(VDD),	    
+	    .VSS(VSS),
+	`endif
 	.addr0(sram_bus_adr[8:0]),
 	.addr1(sram_adr1),
 	.clk0(sys_clk),
