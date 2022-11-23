@@ -5,40 +5,59 @@ kB = 1024
 
 
 class GF180_RAM(Module):
-    def __init__(self, width=32, size=2*kB):
+    def __init__(self, width=32, size=2 * kB):
         self.bus = wishbone.Interface(width)
 
         # # #
         assert width in [32]
-        assert size in [2*kB]
+        assert size in [2 * kB]
+        depth_cascading = size // (2 * kB)
+        width_cascading = 1
 
-        self.d     = Signal(32)
-        self.q     = Signal(32)
-        self.wen   = Signal(4)
-        self.gwen  = Signal()
-        self.cen  = Signal()
+        # Combine RAMs to increase Depth.
+        # for d in range(depth_cascading):
+        #     # Combine RAMs to increase Width.
+        #     for w in range(width_cascading):
+        datain = Signal(32)
+        dataout = Signal(32)
+        maskwren = Signal(4)
+        wren_b = Signal()
+        cs_b = Signal()
+
+        # ro port signals
+        self.clk1 = Signal()
+        self.cs_b1 = Signal()
+        self.adr1 = Signal(9)
+        self.dataout1 = Signal(32)
 
         self.comb += [
-            self.d.eq(self.bus.dat_w[0:32]),
-            # self.we.eq((self.bus.we & self.bus.stb & self.bus.cyc)),
-            self.wen[0].eq(self.bus.sel[0] & self.bus.we & self.bus.stb & self.bus.cyc),
-            self.wen[1].eq(self.bus.sel[1] & self.bus.we & self.bus.stb & self.bus.cyc),
-            self.wen[2].eq(self.bus.sel[2] & self.bus.we & self.bus.stb & self.bus.cyc),
-            self.wen[3].eq(self.bus.sel[3] & self.bus.we & self.bus.stb & self.bus.cyc),
-            self.bus.dat_r[0:32].eq(self.q),
-            self.cen.eq(0),
-            self.gwen.eq(self.bus.stb & self.bus.cyc),
+            datain.eq(self.bus.dat_w[0:32]),
+            # If(self.bus.adr[9:8+log2_int(depth_cascading)+1] == d,
+            wren_b.eq(~(self.bus.we & self.bus.stb & self.bus.cyc)),
+            self.bus.dat_r[0:32].eq(dataout),
+            cs_b.eq(0),
+            # ),
+            # maskwren is nibble based
+            maskwren[0].eq(self.bus.sel[0]),
+            maskwren[1].eq(self.bus.sel[1]),
+            maskwren[2].eq(self.bus.sel[2]),
+            maskwren[3].eq(self.bus.sel[3]),
         ]
+        self.specials += Instance("sram",
+                                  i_clk0=ClockSignal("sys"),
+                                  i_addr0=self.bus.adr[:9],
+                                  i_din0=datain,
+                                  i_wmask0=maskwren,
+                                  i_web0=wren_b,
+                                  i_csb0=cs_b,
+                                  o_dout0=dataout,
 
-        self.specials += Instance("GF180_RAM_512x32",
-                                  i_CLK=ClockSignal("sys"),
-                                  i_CEN=self.cen,
-                                  i_GWEN=self.gwen,
-                                  i_WEN=self.wen,
-                                  i_A=self.bus.adr[:9],
-                                  i_D=self.d,
-                                  o_Q=self.q
-        )
+                                  # ro port
+                                  i_clk1=self.clk1,
+                                  i_addr1=self.adr1,
+                                  i_csb1=self.cs_b1,
+                                  o_dout1=self.dataout1
+                                  )
 
         self.sync += self.bus.ack.eq(self.bus.stb & self.bus.cyc & ~self.bus.ack)
 

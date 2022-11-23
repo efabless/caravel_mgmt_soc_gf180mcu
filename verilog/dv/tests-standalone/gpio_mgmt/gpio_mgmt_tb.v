@@ -30,6 +30,7 @@ module gpio_mgmt_tb;
 	reg power2;
 
 	always #12.5 clock <= (clock === 1'b0);
+	//always #50 clock <= (clock === 1'b0);
 
 	initial begin
 		clock <= 0;
@@ -48,7 +49,7 @@ module gpio_mgmt_tb;
 		$dumpvars(0, gpio_mgmt_tb);
 
 		// Repeat cycles of 1000 clock edges as needed to complete testbench
-		repeat (100) begin
+		repeat (50) begin
 			repeat (1000) @(posedge clock);
 			$display("+1000 cycles");
 		end

@@ -4,7 +4,7 @@
 -v $(VERILOG_PATH)/dv/vip/wb_rw_test.v
 
 ## DFFRAM Behavioral Model
--v $(VERILOG_PATH)/dv/vip/DFFRAM.v
+#-v $(VERILOG_PATH)/dv/vip/DFFRAM.v
 
 ## DFFRAM Full RTL
 #-v $(VERILOG_PATH)/rtl/DFFRAM.v
@@ -18,4 +18,7 @@
 
 ## SRAM Behavioral Model
 -v $(PDK_ROOT)/$(PDK)/libs.ref/gf180mcu_fd_ip_sram/verilog/gf180mcu_fd_ip_sram__sram512x8m8wm1.v
+-v $(VERILOG_PATH)/rtl/sram.v
 -v $(VERILOG_PATH)/rtl/GF180_RAM_512x32.v
+
+-v $(VERILOG_PATH)/rtl/sky130_sram_2kbyte_1rw1r_32x512_8.v
