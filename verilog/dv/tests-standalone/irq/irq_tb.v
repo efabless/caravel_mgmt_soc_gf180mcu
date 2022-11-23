@@ -2,7 +2,7 @@
 /*
  *  SPDX-FileCopyrightText: 2017  Clifford Wolf, 2018  Tim Edwards
  *
- *  Caravel - A full example SoC using PicoRV32 in SkyWater sky130
+ *  Caravel - A full example SoC in GF180MCU
  *
  *  Copyright (C) 2017  Clifford Wolf <clifford@clifford.at>
  *  Copyright (C) 2021  Tim Edwards <tim@efabless.com>

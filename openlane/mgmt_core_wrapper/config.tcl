@@ -19,7 +19,7 @@ set ::env(DESIGN_NAME) mgmt_core_wrapper
 set ::env(DESIGN_IS_CORE) 1
 
 set ::env(PDK) "gf180mcuC"
-set ::env(STD_CELL_LIBRARY) "gf180mcu_sc7_hv"
+set ::env(STD_CELL_LIBRARY) "gf180mcu_fd_sc_mcu7t5v0"
 
 set ::env(ROUTING_CORES) 	"160"
 set ::env(RUN_KLAYOUT) 		0
@@ -148,15 +148,15 @@ set ::env(VERILOG_FILES) "\
 
 set ::env(VERILOG_FILES_BLACKBOX) "\
 	$script_dir/../../verilog/rtl/defines.v\
-	$::env(PDK_ROOT)/$::env(PDK)/libs.ref/gf180mcu_sram/verilog/GF018_5VGreen_SRAM_1P_512x8M8WM1.v"
+	$::env(PDK_ROOT)/$::env(PDK)/libs.ref/gf180mcu_fd_ip_sram/verilog/gf180mcu_fd_ip_sram__sram512x8m8wm1.v"
 	
 
 set ::env(EXTRA_LEFS) "\
-	$script_dir/../../lef/GF018_5VGreen_SRAM_1P_512x8M8WM1.lef"
+	$script_dir/../../lef/gf180mcu_fd_ip_sram__sram512x8m8wm1.lef"
 set ::env(EXTRA_GDS_FILES) "\
-    $::env(PDK_ROOT)/$::env(PDK)/libs.ref/gf180mcu_sram/gds/GF018_5VGreen_SRAM_1P_512x8M8WM1.gds"
+    $::env(PDK_ROOT)/$::env(PDK)/libs.ref/gf180mcu_fd_ip_sram/gds/gf180mcu_fd_ip_sram__sram512x8m8wm1.gds"
 set ::env(EXTRA_LIBS) "\
-    $::env(PDK_ROOT)/$::env(PDK)/libs.ref/gf180mcu_sram/liberty/GF018_5VGreen_SRAM_1P_512x8M8WM1_tt_1p8v_25c.lib"
+    $::env(PDK_ROOT)/$::env(PDK)/libs.ref/gf180mcu_fd_ip_sram/liberty/gf180mcu_fd_ip_sram__sram512x8m8wm1_tt_1p8v_25c.lib"
 
 ## Internal Macros
 set ::env(MACRO_PLACEMENT_CFG) $script_dir/macro_placement.cfg

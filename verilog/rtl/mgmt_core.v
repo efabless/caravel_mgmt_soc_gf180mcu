@@ -8380,21 +8380,6 @@ always @(posedge sys_clk) begin
 	multiregimpl136_regs1 <= multiregimpl136_regs0;
 end
 
-/*
-sky130_sram_2kbyte_1rw1r_32x512_8 sky130_sram_2kbyte_1rw1r_32x512_8(
-	.addr0(sram_bus_adr[8:0]),
-	.addr1(sram_adr1),
-	.clk0(sys_clk),
-	.clk1(sram_clk1),
-	.csb0(sram_cs_b),
-	.csb1(sram_cs_b1),
-	.din0(sram_datain),
-	.web0(sram_wren_b),
-	.wmask0(sram_maskwren),
-	.dout0(sram_dataout),
-	.dout1(sram_dataout1)
-);*/
-
 sram sram(
 	.addr0(sram_bus_adr[8:0]),
 	.addr1(sram_adr1),
