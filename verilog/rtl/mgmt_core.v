@@ -4838,7 +4838,7 @@ always @(*) begin
 	slave_sel[2] = (shared_adr[29:11] == 1'd0);
 	slave_sel[1] = (shared_adr[29:9] == 14'd8192);
 	slave_sel[3] = (shared_adr[29:22] == 5'd16);
-	slave_sel[4] = (shared_adr[29:18] == 10'd768);
+	slave_sel[4] = (shared_adr[29:26] == 2'd3);
 	// slave_sel[5] = (shared_adr[29:18] == 10'd608);
 	slave_sel[5] = (shared_adr[29:22] == 8'd38);
 	slave_sel[6] = (shared_adr[29:14] == 16'd61440);
