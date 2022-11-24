@@ -18,7 +18,7 @@
  * Data Created:        05-06-2014
  * Revision:		0.0	
  *
- * Description:         GF018_5VGreen_SRAM_1P_512x8M8WM1 Simulation Model
+ * Description:         gf180mcu_fd_ip_sram__sram512x8m8wm1 Simulation Model
  */
 
 `timescale 1 ps / 1 ps

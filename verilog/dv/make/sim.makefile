@@ -70,7 +70,7 @@ ifeq ($(SIM),RTL)
     else
 		iverilog -Ttyp -DFUNCTIONAL -DSIM -DUSE_POWER_PINS -DUNIT_DELAY=#1 \
 		-f $(VERILOG_PATH)/includes/includes.rtl.$(CONFIG) \
-		-o $@ $(CARAVEL_PATH)/rtl/__user_project_wrapper.v $<
+		-o $@ $<
     endif
 endif 
 

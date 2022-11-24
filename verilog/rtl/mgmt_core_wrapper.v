@@ -150,8 +150,8 @@ module mgmt_core_wrapper #(parameter LA_WIDTH = 64)(
 
     mgmt_core core (
 	`ifdef USE_POWER_PINS
-	    .VDD(VDD),	    /* 1.8V domain */
-	    .VSS(VSS),
+	    .VPWR(VDD),	    /* 1.8V domain */
+	    .VGND(VSS),
 	`endif
     	.core_clk(core_clk),
     	.core_rstn(core_rstn),
@@ -229,22 +229,8 @@ module mgmt_core_wrapper #(parameter LA_WIDTH = 64)(
     	.spi_mosi(spi_sdo),
     	.debug_in(debug_in),
     	.debug_out(debug_out),
-    	.debug_oeb(debug_oeb),
-/*
-        // DFFRAM Interface 
-        .mgmt_soc_dff_WE(mgmt_soc_dff_WE),
-        .mgmt_soc_dff_EN(mgmt_soc_dff_EN),
-        .mgmt_soc_dff_Do(mgmt_soc_dff_Do),
-        .mgmt_soc_dff_Di(mgmt_soc_dff_Di),
-        .mgmt_soc_dff_A(mgmt_soc_dff_A),
+    	.debug_oeb(debug_oeb)
 
-        // SRAM read-only access from housekeeping
-        .sram_ro_clk(no_connect1),
-        .sram_ro_csb(no_connect2),
-        .sram_ro_addr(no_connect3),
-        .sram_ro_data(sram_ro_data)
-*/
-        .mgmt_soc_dff_Do(32'b0)
     );
 
 /*

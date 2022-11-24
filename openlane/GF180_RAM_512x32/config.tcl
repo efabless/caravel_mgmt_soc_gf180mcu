@@ -19,7 +19,7 @@ set ::env(DESIGN_NAME) GF180_RAM_512x32
 set ::env(DESIGN_IS_CORE) 1
 
 set ::env(PDK) "gf180mcuC"
-set ::env(STD_CELL_LIBRARY) "gf180mcu_sc7_hv"
+set ::env(STD_CELL_LIBRARY) "gf180mcu_fd_sc_mcu7t5v0"
 
 set ::env(ROUTING_CORES) 8
 set ::env(RUN_KLAYOUT) 0
@@ -33,13 +33,13 @@ set ::env(FP_PIN_ORDER_CFG) $::env(DESIGN_DIR)/pin_order.cfg
 set ::env(VERILOG_FILES) "\
 	$script_dir/../../verilog/rtl/GF180_RAM_512x32.v"
 set ::env(VERILOG_FILES_BLACKBOX) "\
-    $script_dir/../../sram/verilog/GF018_5VGreen_SRAM_1P_512x8M8WM1.v"
+    $script_dir/../../sram/verilog/gf180mcu_fd_ip_sram__sram512x8m8wm1.v"
 set ::env(EXTRA_LEFS) "\
-    $script_dir/../../sram/lef/GF018_5VGreen_SRAM_1P_512x8M8WM1.lef"
+    $script_dir/../../sram/lef/gf180mcu_fd_ip_sram__sram512x8m8wm1.lef"
 set ::env(EXTRA_GDS_FILES) "\
-    $script_dir/../../sram/gds/GF018_5VGreen_SRAM_1P_512x8M8WM1.gds"
+    $script_dir/../../sram/gds/gf180mcu_fd_ip_sram__sram512x8m8wm1.gds"
 set ::env(EXTRA_LIBS) "\
-    $script_dir/../../sram/lib/GF018_5VGreen_SRAM_1P_512x8M8WM1_tt_1p8v_25c.lib"
+    $script_dir/../../sram/lib/gf180mcu_fd_ip_sram__sram512x8m8wm1_tt_1p8v_25c.lib"
 
 set ::env(CLOCK_PERIOD) "25"
 set ::env(CLOCK_PORT) "CLK"
