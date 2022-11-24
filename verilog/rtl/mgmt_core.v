@@ -1683,7 +1683,7 @@ assign mgmtsoc_zero_status = mgmtsoc_zero_trigger;
 assign datain = bus_dat_w[31:0];
 assign wren_b = (~((bus_we & bus_stb) & bus_cyc));
 assign bus_dat_r[31:0] = dataout;
-assign cs_b = 1'd0;
+assign cs_b = core_rstn;
 always @(*) begin
 	maskwren = 4'd0;
 	maskwren[0] = bus_sel[0];
