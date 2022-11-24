@@ -7644,10 +7644,6 @@ always @(posedge sys_clk) begin
 end
 
 sram sram(
-	`ifdef USE_POWER_PINS
-	    .VDD(VDD),	    
-	    .VSS(VSS),
-	`endif
 	.addr0(bus_adr[8:0]),
 	.addr1(adr1),
 	.clk0(sys_clk),
