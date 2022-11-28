@@ -43,7 +43,7 @@
 */
 module mgmt_core_wrapper #(parameter LA_WIDTH = 64)(
 `ifdef USE_POWER_PINS
-    inout           VDD,	    /* 1.8V domain */
+    inout           VDD,	    /* 5.0V domain */
     inout           VSS,
 `endif
     // Clock and reset
@@ -150,8 +150,8 @@ module mgmt_core_wrapper #(parameter LA_WIDTH = 64)(
 
     mgmt_core core (
 	`ifdef USE_POWER_PINS
-	    .VPWR(VDD),	    /* 1.8V domain */
-	    .VGND(VSS),
+	    .VDD(VDD),	    /* 1.8V domain */
+	    .VSS(VSS),
 	`endif
     	.core_clk(core_clk),
     	.core_rstn(core_rstn),

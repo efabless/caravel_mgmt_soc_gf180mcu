@@ -5,7 +5,7 @@ kB = 1024
 
 
 class GF180_RAM(Module):
-    def __init__(self, width=32, size=2 * kB):
+    def __init__(self, rstn, width=32, size=2 * kB):
         self.bus = wishbone.Interface(width)
 
         # # #
@@ -35,7 +35,7 @@ class GF180_RAM(Module):
             # If(self.bus.adr[9:8+log2_int(depth_cascading)+1] == d,
             wren_b.eq(~(self.bus.we & self.bus.stb & self.bus.cyc)),
             self.bus.dat_r[0:32].eq(dataout),
-            cs_b.eq(0),
+            cs_b.eq(rstn),
             # ),
             # maskwren is nibble based
             maskwren[0].eq(self.bus.sel[0]),
