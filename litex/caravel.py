@@ -146,7 +146,7 @@ class MGMTSoC(SoCMini):
 
         #GF180_RAM
         sram_size = 2 * 1024
-        sram = self.submodules.mem = GF180_RAM(size=sram_size)
+        sram = self.submodules.mem = GF180_RAM(size=sram_size, rstn=core_rstn)
         self.register_mem("sram", self.mem_map["sram"], self.mem.bus, sram_size)
 
         #DFFRAM

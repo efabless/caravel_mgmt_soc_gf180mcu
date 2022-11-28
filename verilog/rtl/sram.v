@@ -6,7 +6,8 @@ module sram(
 // Port 0: RW
     clk0,csb0,web0,wmask0,addr0,din0,dout0,
 // Port 1: R
-    clk1,csb1,addr1,dout1
+    clk1,csb1,addr1,dout1,
+    VDD, VSS
 );
 
     parameter   NUM_WMASKS  = 4 ;

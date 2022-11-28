@@ -220,8 +220,8 @@ class Platform(GenericPlatform):
         wires = verilog._list_comb_wires(f) | special_outs
         r = "module " + name + "(\n"
         r += "`ifdef USE_POWER_PINS\n"
-        r += "    inout VPWR,	    /* 1.8V domain */\n"
-        r += "    inout VGND,\n"
+        r += "    inout VDD,	    /* 5.0V domain */\n"
+        r += "    inout VSS,\n"
         r += "`endif\n"
         firstp = True
         for sig in sorted(ios, key=lambda x: x.duid):
