@@ -6,8 +6,7 @@ module sram(
 // Port 0: RW
     clk0,csb0,web0,wmask0,addr0,din0,dout0,
 // Port 1: R
-    clk1,csb1,addr1,dout1,
-    VDD, VSS
+    clk1,csb1,addr1,dout1
 );
 
     parameter   NUM_WMASKS  = 4 ;
@@ -27,7 +26,7 @@ module sram(
     input [ADDR_WIDTH-1:0]  addr1;
     output [DATA_WIDTH-1:0] dout1;
     `ifdef USE_POWER_PINS
-    inout VDD;	   
+    inout VDD;
     inout VSS;
     `endif
 
