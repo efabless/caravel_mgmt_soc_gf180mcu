@@ -39,7 +39,7 @@ void main()
 
 	reg_gpio_out = 0;
     reg_gpio_ieb = 1;
-	reg_gpio_oeb = 1;
+	reg_gpio_oeb = 0;
 //	reg_gpio_pu = 0;
 //	reg_gpio_pd = 0;
 

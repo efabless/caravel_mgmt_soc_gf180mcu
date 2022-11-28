@@ -35,7 +35,7 @@ class GF180_RAM(Module):
             # If(self.bus.adr[9:8+log2_int(depth_cascading)+1] == d,
             wren_b.eq(~(self.bus.we & self.bus.stb & self.bus.cyc)),
             self.bus.dat_r[0:32].eq(dataout),
-            cs_b.eq(rstn),
+            cs_b.eq(~rstn),  # rstn is normally high -> cs_b low
             # ),
             # maskwren is nibble based
             maskwren[0].eq(self.bus.sel[0]),
@@ -45,7 +45,7 @@ class GF180_RAM(Module):
         ]
         self.specials += Instance("sram",
                                   i_clk0=ClockSignal("sys"),
-                                  i_addr0=self.bus.adr[:9],
+                                  i_addr0=self.bus.adr[:10],
                                   i_din0=datain,
                                   i_wmask0=maskwren,
                                   i_web0=wren_b,

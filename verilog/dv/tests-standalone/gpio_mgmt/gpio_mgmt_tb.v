@@ -122,8 +122,9 @@ module gpio_mgmt_tb;
 	end
 
 	initial begin
-		RSTB <= 1'b0;
-		
+	    RSTB <= 1'b1;
+	    #500;
+		RSTB <= 1'b0;       // Apply reset
 		#1000;
 		RSTB <= 1'b1;	    // Release reset
 		#2000;
