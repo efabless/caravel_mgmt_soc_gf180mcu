@@ -24,6 +24,7 @@
 -v $(CARAVEL_PATH)/rtl/defines.v 		     		
 -v $(CARAVEL_PATH)/rtl/user_defines.v		     
 -v $(CARAVEL_PATH)/rtl/simple_por.v		     
+-v $(CARAVEL_PATH)/rtl/mprj_io_buffer.v		     
 
 ## These blocks only needed for RTL sims							     
 -v $(CARAVEL_PATH)/rtl/digital_pll_controller.v 
@@ -41,6 +42,7 @@
 -v $(CARAVEL_PATH)/rtl/digital_pll.v		     
 #-v $(CARAVEL_PATH)/rtl/__user_project_wrapper.v	     
 -v $(CARAVEL_PATH)/rtl/user_id_programming.v	     
+-v $(CARAVEL_PATH)/rtl/caravel_core.v 		     
 -v $(CARAVEL_PATH)/rtl/caravel.v 		     
 
 ## These blocks are manually designed 		

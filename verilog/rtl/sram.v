@@ -1,4 +1,8 @@
 module sram(
+    `ifdef USE_POWER_PINS
+    VDD,	 
+    VSS,
+    `endif
 // Port 0: RW
     clk0,csb0,web0,wmask0,addr0,din0,dout0,
 // Port 1: R
@@ -22,19 +26,23 @@ module sram(
     input                   csb1; // active low chip select
     input [ADDR_WIDTH-1:0]  addr1;
     output [DATA_WIDTH-1:0] dout1;
-    inout                   VDD;
-    inout                   VSS;
+    `ifdef USE_POWER_PINS
+    inout VDD;	   
+    inout VSS;
+    `endif
 
-
-    GF180_RAM_512x32 ram512x32 (    .CLK(clk0), 
+    GF180_RAM_512x32 ram512x32 (    
+                                    `ifdef USE_POWER_PINS
+                                    .VDD(VDD), 
+                                    .VSS(VSS),
+                                    `endif
+                                    .CLK(clk0), 
                                     .CEN(~csb0), 
                                     .GWEN(web0), 
                                     .WEN(~wmask0), 
                                     .A(addr0), 
                                     .D(din0), 
-                                    .Q(dout0), 
-                                    .VDD(), 
-                                    .VSS() 
+                                    .Q(dout0)
                                 );
 
 endmodule 
