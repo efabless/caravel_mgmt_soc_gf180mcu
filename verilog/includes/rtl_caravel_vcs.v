@@ -27,7 +27,7 @@
 // `include "caravel/verilog/rtl/gpio_signal_buffering.v"			
 // `include "caravel/verilog/rtl/gpio_signal_buffering_alt.v"			
 // `include "caravel/verilog/rtl/pads.v"			
-// `include "caravel/verilog/rtl/mprj_io.v"
+`include "caravel/verilog/rtl/mprj_io_buffer.v"
 
 // These blocks only needed for RTL sims							     
 `include "caravel/verilog/rtl/digital_pll_controller.v" 
@@ -49,18 +49,8 @@
 `include "caravel/verilog/rtl/housekeeping.v"		     
 `include "caravel/verilog/rtl/caravel_clocking.v"	     
 `include "caravel/verilog/rtl/digital_pll.v"		     
-`ifdef LA_TESTING
-`include "caravel/verilog/rtl/__user_project_la_example.v"
-`endif
-`ifdef GPIO_TESTING
-`include "caravel/verilog/rtl/__user_project_gpio_example.v"
-`endif
-// `ifndef CARAVAN
-// `include "caravel/verilog/rtl/__user_project_wrapper.v"
-// `else
-// `include "caravel/verilog/rtl/__user_analog_project_wrapper.v"
-// `endif
 `include "caravel/verilog/rtl/user_id_programming.v"	     
+`include "caravel/verilog/rtl/caravel_core.v" 		     
 `include "caravel/verilog/rtl/caravel.v" 		     
 
 // These blocks are manually designed 		
