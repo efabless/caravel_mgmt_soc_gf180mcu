@@ -36,7 +36,7 @@ module sram(
                                     .VSS(VSS),
                                     `endif
                                     .CLK(clk0), 
-                                    .CEN(~csb0), 
+                                    .CEN(csb0),
                                     .GWEN(web0), 
                                     .WEN(~wmask0), 
                                     .A(addr0), 
