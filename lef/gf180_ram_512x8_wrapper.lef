@@ -371,8 +371,6 @@ MACRO gf180_ram_512x8_wrapper
         RECT 5.000 5.000 436.860 508.580 ;
       LAYER Metal3 ;
         RECT 5.000 5.000 436.860 504.980 ;
-      LAYER Metal4 ;
-        RECT 0.000 25.000 436.860 504.980 ;
   END
 END gf180_ram_512x8_wrapper
 END LIBRARY
