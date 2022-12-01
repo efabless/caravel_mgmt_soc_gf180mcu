@@ -242,10 +242,6 @@ MACRO gf180_ram_512x8_wrapper
       LAYER Metal4 ;
         RECT 428.630 15.680 431.630 493.920 ;
     END
-    PORT
-      LAYER Metal5 ;
-        RECT 5.22 14.18 437.92 17.18 ;
-    END
   END VDD
   PIN VSS
     DIRECTION INOUT ;
@@ -257,10 +253,6 @@ MACRO gf180_ram_512x8_wrapper
     PORT
       LAYER Metal4 ;
         RECT 432.630 15.680 435.630 493.920 ;
-    END
-    PORT
-      LAYER Metal5 ;
-        RECT 6.72 18.18 437.92 21.18 ;
     END
   END VSS
   PIN WEN[0]
@@ -371,6 +363,8 @@ MACRO gf180_ram_512x8_wrapper
         RECT 5.000 5.000 436.860 508.580 ;
       LAYER Metal3 ;
         RECT 5.000 5.000 436.860 504.980 ;
+      LAYER Metal4 ;
+        RECT 0.000 25.000 436.860 504.980 ;
   END
 END gf180_ram_512x8_wrapper
 END LIBRARY
