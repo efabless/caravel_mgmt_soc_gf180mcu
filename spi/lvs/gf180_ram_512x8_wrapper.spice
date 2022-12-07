@@ -1,0 +1,18 @@
+* NGSPICE file created from gf180_ram_512x8_wrapper.ext - technology: gf180mcuC
+
+* Black-box entry subcircuit for gf180mcu_fd_ip_sram__sram512x8m8wm1 abstract view
+.subckt gf180mcu_fd_ip_sram__sram512x8m8wm1 A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7]
++ A[8] CEN CLK D[0] D[1] D[2] D[3] D[4] D[5] D[6] D[7] GWEN Q[0] Q[1] Q[2] Q[3] Q[4]
++ Q[5] Q[6] Q[7] WEN[0] WEN[1] WEN[2] WEN[3] WEN[4] WEN[5] WEN[6] WEN[7] VDD VSS
+.ends
+
+.subckt gf180_ram_512x8_wrapper A[0] A[1] A[2] A[3] A[4] A[5] A[6] A[7] A[8] CEN CLK
++ D[0] D[1] D[2] D[3] D[4] D[5] D[6] D[7] GWEN Q[0] Q[1] Q[2] Q[3] Q[4] Q[5] Q[6]
++ Q[7] VDD_uq0 VSS_uq0 WEN[0] WEN[1] WEN[2] WEN[3] WEN[4] WEN[5] WEN[6] WEN[7]
+XRAM RAM/A[0] RAM/A[1] RAM/A[2] RAM/A[3] RAM/A[4] RAM/A[5] RAM/A[6] RAM/A[7] RAM/A[8]
++ RAM/CEN RAM/CLK RAM/D[0] RAM/D[1] RAM/D[2] RAM/D[3] RAM/D[4] RAM/D[5] RAM/D[6] RAM/D[7]
++ RAM/GWEN RAM/Q[0] RAM/Q[1] RAM/Q[2] RAM/Q[3] RAM/Q[4] RAM/Q[5] RAM/Q[6] RAM/Q[7]
++ RAM/WEN[0] RAM/WEN[1] RAM/WEN[2] RAM/WEN[3] RAM/WEN[4] RAM/WEN[5] RAM/WEN[6] RAM/WEN[7]
++ VDD_uq0 VSS_uq0 gf180mcu_fd_ip_sram__sram512x8m8wm1
+.ends
+
