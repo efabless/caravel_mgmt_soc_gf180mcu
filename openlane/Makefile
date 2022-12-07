@@ -12,12 +12,8 @@
 # limitations under the License.
 #
 # SPDX-License-Identifier: Apache-2.0
-export OPENLANE_ROOT ?= /home/hosni/GF180/PnR_2/OpenLane
-export PDK_ROOT ?= /home/hosni/GF180/PnR_2//OpenLane/pdks
 export PDK ?= gf180mcuC
 export STD_CELL_LIBRARY ?= gf180mcu_fd_sc_mcu7t5v0
-export MCW_ROOT ?= /home/hosni/GF180/PnR_2/caravel_mgmt_soc_gf180mcu
-export CARAVEL_ROOT ?= /home/hosni/GF180/PnR_2/caravel-gf180mcu
 
 MAKEFLAGS+=--warn-undefined-variables
 
