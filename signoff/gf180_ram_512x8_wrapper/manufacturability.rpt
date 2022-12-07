@@ -1,0 +1,30 @@
+Design Name: gf180_ram_512x8_wrapper
+Run Directory: /home/hosni/GF180/PnR_2/caravel_mgmt_soc_gf180mcu/openlane/gf180_ram_512x8_wrapper/runs/RUN_2022.12.05_15.55.40
+----------------------------------------
+
+Magic DRC Summary:
+Source: /home/hosni/GF180/PnR_2/caravel_mgmt_soc_gf180mcu/openlane/gf180_ram_512x8_wrapper/runs/RUN_2022.12.05_15.55.40/reports/signoff/drc.rpt
+Violation Message "MV P-Diffusion overlap of contact < 0.065um (CO.4) "found 198 Times.
+Violation Message "Via3 spacing < 0.24um (V3.2a - 2 * V3.4) "found 400 Times.
+Violation Message "This layer can't abut or partially overlap between subcells "found 16 Times.
+Violation Message "Can't overlap those layers "found 19 Times.
+Violation Message "Diffusion spacing < 0.36um (DF.3a) "found 80 Times.
+Violation Message "Via3 width < 0.28um (V3.1 + 2 * V3.4) "found 675 Times.
+Violation Message "N-well overlap of P-Diffusion < 0.6um (DF.7) "found 4620 Times.
+Violation Message "Both LV and MV devices cannot be in the same N-well (DV.9) "found 288 Times.
+Violation Message "N-Diffusion spacing to N-well < 0.005um (DF.8) "found 562 Times.
+Violation Message "MV N-Diffusion overlap of contact < 0.065um (CO.4) "found 792 Times.
+Violation Message "Poly spacing to MV diffusion < 0.3um (PL.5a) "found 7788 Times.
+Violation Message "N-Diffusion overlap of contact < 0.065um (CO.4) "found 16 Times.
+Violation Message "N-Diffusion spacing to N-well < 0.6um (DF.8) "found 1188 Times.
+Violation Message "N-Diffusion spacing to N-well < 0.43um (DF.8) "found 570 Times.
+Total Magic DRC violations is 17212
+----------------------------------------
+
+LVS Summary:
+Source: /home/hosni/GF180/PnR_2/caravel_mgmt_soc_gf180mcu/openlane/gf180_ram_512x8_wrapper/runs/RUN_2022.12.05_15.55.40/logs/signoff/gf180_ram_512x8_wrapper.lvs.lef.log
+Source not found.
+----------------------------------------
+
+Antenna Summary:
+No antenna report found.
