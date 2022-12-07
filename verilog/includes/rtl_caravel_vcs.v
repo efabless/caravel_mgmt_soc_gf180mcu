@@ -15,8 +15,8 @@
 `include "caravel_mgmt_soc_litex/verilog/rtl/sram.v"
 `include "caravel_mgmt_soc_litex/verilog/rtl/mgmt_core.v"
 `include "caravel_mgmt_soc_litex/verilog/rtl/mgmt_core_wrapper.v"
+`include "caravel_mgmt_soc_litex/verilog/rtl/gf180_ram_512x8_wrapper.v"
 `include "caravel_mgmt_soc_litex/verilog/rtl/VexRiscv_MinDebugCache.v"
-
 // Caravel
 
 // These blocks need to stay in RTL
@@ -52,6 +52,7 @@
 `include "caravel/verilog/rtl/user_id_programming.v"	     
 `include "caravel/verilog/rtl/caravel_core.v" 		     
 `include "caravel/verilog/rtl/caravel.v" 		     
+`include "caravel/verilog/rtl/caravel_power_routing.v" 		     
 
 // These blocks are manually designed 		
 // `include "caravel/verilog/gl/gpio_defaults_block_0403.v"     
