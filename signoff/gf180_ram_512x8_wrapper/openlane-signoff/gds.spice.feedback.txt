@@ -1,0 +1,1159 @@
+box 42492 74284 42507 74329
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 74329 42507 74450
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 74450 42507 74496
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 74496 42507 74620
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 74620 42507 74666
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 74666 42507 74790
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 74790 42507 74836
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 74836 42507 74960
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 74960 42507 75006
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 75006 42507 75130
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 75130 42507 75176
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 75176 42507 75222
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42373 74284 42388 74329
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 74329 42388 74450
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 74450 42388 74496
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 74496 42388 74620
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 74620 42388 74666
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 74666 42388 74790
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 74790 42388 74836
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 74836 42388 74960
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 74960 42388 75006
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 75006 42388 75130
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 75130 42388 75176
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 75176 42388 75222
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 74284 40873 74329
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 74329 40873 74450
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 74450 40873 74496
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 74496 40873 74620
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 74620 40873 74666
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 74666 40873 74790
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 74790 40873 74836
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 74836 40873 74960
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 74960 40873 75006
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 75006 40873 75130
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 75130 40873 75176
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 75176 40873 75222
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40739 74284 40754 74329
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 74329 40754 74450
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 74450 40754 74496
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 74496 40754 74620
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 74620 40754 74666
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 74666 40754 74790
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 74790 40754 74836
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 74836 40754 74960
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 74960 40754 75006
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 75006 40754 75130
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 75130 40754 75176
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 75176 40754 75222
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39225 74284 39240 75222
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 39106 74284 39121 74329
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 74329 39121 74450
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 74450 39121 74496
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 74496 39121 74620
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 74620 39121 74666
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 74666 39121 74790
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 74790 39121 74836
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 74836 39121 74960
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 74960 39121 75006
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 75006 39121 75130
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 75130 39121 75176
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 75176 39121 75222
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37591 74284 37606 74329
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 74329 37606 74450
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 74450 37606 74496
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 74496 37606 74620
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 74620 37606 74666
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 74666 37606 74790
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 74790 37606 74836
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 74836 37606 74960
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 74960 37606 75006
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 75006 37606 75130
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 75130 37606 75176
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 75176 37606 75222
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37472 74284 37487 74329
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 74329 37487 74450
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 74450 37487 74496
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 74496 37487 74620
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 74620 37487 74666
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 74666 37487 74790
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 74790 37487 74836
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 74836 37487 74960
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 74960 37487 75006
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 75006 37487 75130
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 75130 37487 75176
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 75176 37487 75222
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 72884 42507 72940
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 72940 42507 72986
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 72986 42507 73108
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 73108 42507 73154
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 73154 42507 73276
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 73276 42507 73322
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 73322 42507 73444
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 73444 42507 73490
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 73490 42507 73611
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 73611 42507 73657
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 73657 42507 73779
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 73779 42507 73825
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 73825 42507 73947
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 73947 42507 73993
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 73993 42507 74115
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 74115 42507 74161
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 74161 42507 74283
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 74283 42507 74286
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42373 72884 42388 72940
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 72940 42388 72986
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 72986 42388 73108
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 73108 42388 73154
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 73154 42388 73276
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 73276 42388 73322
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 73322 42388 73444
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 73444 42388 73490
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 73490 42388 73611
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 73611 42388 73657
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 73657 42388 73779
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 73779 42388 73825
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 73825 42388 73947
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 73947 42388 73993
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 73993 42388 74115
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 74115 42388 74161
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 74161 42388 74283
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 74283 42388 74286
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 72884 40873 72940
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 72940 40873 72986
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 72986 40873 73108
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 73108 40873 73154
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 73154 40873 73276
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 73276 40873 73322
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 73322 40873 73444
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 73444 40873 73490
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 73490 40873 73611
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 73611 40873 73657
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 73657 40873 73779
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 73779 40873 73825
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 73825 40873 73947
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 73947 40873 73993
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 73993 40873 74115
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 74115 40873 74161
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 74161 40873 74283
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 74283 40873 74286
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40739 72884 40754 72940
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 72940 40754 72986
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 72986 40754 73108
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 73108 40754 73154
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 73154 40754 73276
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 73276 40754 73322
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 73322 40754 73444
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 73444 40754 73490
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 73490 40754 73611
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 73611 40754 73657
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 73657 40754 73779
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 73779 40754 73825
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 73825 40754 73947
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 73947 40754 73993
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 73993 40754 74115
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 74115 40754 74161
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 74161 40754 74283
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 74283 40754 74286
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39225 72884 39240 74286
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 39106 72884 39121 72940
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 72940 39121 72986
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 72986 39121 73108
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 73108 39121 73154
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 73154 39121 73276
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 73276 39121 73322
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 73322 39121 73444
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 73444 39121 73490
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 73490 39121 73611
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 73611 39121 73657
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 73657 39121 73779
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 73779 39121 73825
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 73825 39121 73947
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 73947 39121 73993
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 73993 39121 74115
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 74115 39121 74161
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 74161 39121 74283
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 74283 39121 74286
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37591 72884 37606 72940
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 72940 37606 72986
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 72986 37606 73108
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 73108 37606 73154
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 73154 37606 73276
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 73276 37606 73322
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 73322 37606 73444
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 73444 37606 73490
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 73490 37606 73611
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 73611 37606 73657
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 73657 37606 73779
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 73779 37606 73825
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 73825 37606 73947
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 73947 37606 73993
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 73993 37606 74115
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 74115 37606 74161
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 74161 37606 74283
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 74283 37606 74286
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37472 72884 37487 72940
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 72940 37487 72986
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 72986 37487 73108
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 73108 37487 73154
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 73154 37487 73276
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 73276 37487 73322
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 73322 37487 73444
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 73444 37487 73490
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 73490 37487 73611
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 73611 37487 73657
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 73657 37487 73779
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 73779 37487 73825
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 73825 37487 73947
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 73947 37487 73993
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 73993 37487 74115
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 74115 37487 74161
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 74161 37487 74283
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 74283 37487 74286
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 72727 42507 72773
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 72773 42507 72819
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42492 72819 42507 72886
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 42373 72727 42388 72773
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 72773 42388 72819
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 42373 72819 42388 72886
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 72727 40873 72773
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 72773 40873 72819
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40858 72819 40873 72886
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 40739 72727 40754 72773
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 72773 40754 72819
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 40739 72819 40754 72886
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39225 72727 39240 72886
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 39106 72727 39121 72773
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 72773 39121 72819
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 39106 72819 39121 72886
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37591 72727 37606 72773
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 72773 37606 72819
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37591 72819 37606 72886
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 37472 72727 37487 72773
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 72773 37487 72819
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 37472 72819 37487 72886
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 89831 51761 89902
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 89902 51761 89948
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 89948 51761 90070
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 90070 51761 90116
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 90116 51761 90238
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 90238 51761 90284
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 90284 51761 90406
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 90406 51761 90452
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 90452 51761 90573
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 90573 51761 90619
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 90619 51761 90715
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51627 89831 51641 89902
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 89902 51641 89948
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 89948 51641 90070
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 90070 51641 90116
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 90116 51641 90238
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 90238 51641 90284
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 90284 51641 90406
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 90406 51641 90452
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 90452 51641 90573
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 90573 51641 90619
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 90619 51641 90715
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 50114 89831 50128 89902
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 89902 50128 89948
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 89948 50128 90070
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 90070 50128 90116
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 90116 50128 90238
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 90238 50128 90284
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 90284 50128 90406
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 90406 50128 90452
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 90452 50128 90573
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 90573 50128 90619
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 90619 50128 90715
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 49994 89831 50008 89902
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 89902 50008 89948
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 89948 50008 90070
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 90070 50008 90116
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 90116 50008 90238
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 90238 50008 90284
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 90284 50008 90406
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 90406 50008 90452
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 90452 50008 90573
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 90573 50008 90619
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 90619 50008 90715
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 48480 89831 48494 90715
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 48360 89831 48374 89902
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 89902 48374 89948
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 89948 48374 90070
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 90070 48374 90116
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 90116 48374 90238
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 90238 48374 90284
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 90284 48374 90406
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 90406 48374 90452
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 90452 48374 90573
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 90573 48374 90619
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 90619 48374 90715
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46846 89831 46860 89902
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 89902 46860 89948
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 89948 46860 90070
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 90070 46860 90116
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 90116 46860 90238
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 90238 46860 90284
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 90284 46860 90406
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 90406 46860 90452
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 90452 46860 90573
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 90573 46860 90619
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 90619 46860 90715
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46726 89831 46740 89902
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 89902 46740 89948
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 89948 46740 90070
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 90070 46740 90116
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 90116 46740 90238
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 90238 46740 90284
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 90284 46740 90406
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 90406 46740 90452
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 90452 46740 90573
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 90573 46740 90619
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 90619 46740 90715
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 89353 51761 89399
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 89399 51761 89445
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 89445 51761 89567
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 89567 51761 89613
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 89613 51761 89735
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 89735 51761 89781
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51747 89781 51761 89833
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 51627 89353 51641 89399
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 89399 51641 89445
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 89445 51641 89567
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 89567 51641 89613
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 89613 51641 89735
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 89735 51641 89781
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 51627 89781 51641 89833
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 50114 89353 50128 89399
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 89399 50128 89445
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 89445 50128 89567
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 89567 50128 89613
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 89613 50128 89735
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 89735 50128 89781
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 50114 89781 50128 89833
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 49994 89353 50008 89399
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 89399 50008 89445
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 89445 50008 89567
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 89567 50008 89613
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 89613 50008 89735
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 89735 50008 89781
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 49994 89781 50008 89833
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 48480 89353 48494 89833
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 48360 89353 48374 89399
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 89399 48374 89445
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 89445 48374 89567
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 89567 48374 89613
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 89613 48374 89735
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 89735 48374 89781
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 48360 89781 48374 89833
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46846 89353 46860 89399
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 89399 46860 89445
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 89445 46860 89567
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 89567 46860 89613
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 89613 46860 89735
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 89735 46860 89781
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46846 89781 46860 89833
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 46726 89353 46740 89399
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 89399 46740 89445
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 89445 46740 89567
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 89567 46740 89613
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 89613 46740 89735
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 89735 46740 89781
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 46726 89781 46740 89833
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 31523 46605 32622 47393
+feedback add "device missing 1 terminal;
+ connecting remainder to node a_81_507#" pale
+box 31523 45705 32622 46493
+feedback add "device missing 1 terminal;
+ connecting remainder to node a_81_507#" pale
+box 43047 9580 43677 9586
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 43047 9712 43677 9718
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 43047 7780 43677 7786
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 43047 7912 43677 7918
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 43047 6112 43677 6118
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 43047 5980 43677 5986
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 43047 54580 43677 54586
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 43047 54712 43677 54718
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 43047 47380 43677 47386
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 43047 47512 43677 47518
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 43047 40180 43677 40186
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 43047 40312 43677 40318
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 43047 25780 43677 25786
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 43047 25912 43677 25918
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 43047 18580 43677 18586
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 43047 18712 43677 18718
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 43047 11380 43677 11386
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 43047 11512 43677 11518
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 57858 59980 58098 59993
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 60105 58098 60118
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 59980 57860 59993
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 60105 57860 60118
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 59980 32622 59993
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 60105 32622 60118
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 58180 58098 58193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 58305 58098 58318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 58180 57860 58193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 58305 57860 58318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 58180 32622 58193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 58305 32622 58318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 56505 58098 56518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 56505 57860 56518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 56505 32622 56518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 56380 58098 56393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 56380 57860 56393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 56380 32622 56393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 54580 58098 54593
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 54705 58098 54718
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 54580 57860 54593
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 54705 57860 54718
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 54580 32622 54593
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 54705 32622 54718
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 52780 58098 52793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 52905 58098 52918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 52780 57860 52793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 52905 57860 52918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 52780 32622 52793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 52905 32622 52918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 50980 58098 50993
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 51105 58098 51118
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 50980 57860 50993
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 51105 57860 51118
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 50980 32622 50993
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 51105 32622 51118
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 49180 58098 49193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 49305 58098 49318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 49180 57860 49193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 49305 57860 49318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 49180 32622 49193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 49305 32622 49318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 47380 58098 47393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 47505 58098 47518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 47380 57860 47393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 47505 57860 47518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 47380 32622 47393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 47505 32622 47518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 45580 58098 45593
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 45705 58098 45718
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 45580 57860 45593
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 45705 57860 45718
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 45580 32622 45593
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 45705 32622 45718
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 43905 58098 43918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 43905 57860 43918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 43905 32622 43918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 43780 58098 43793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 43780 57860 43793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 43780 32622 43793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 41980 58098 41993
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 42105 58098 42118
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 41980 57860 41993
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 42105 57860 42118
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 41980 32622 41993
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 42105 32622 42118
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 40180 58098 40193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 40305 58098 40318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 40180 57860 40193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 40305 57860 40318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 40180 32622 40193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 40305 32622 40318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 38380 58098 38393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 38505 58098 38518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 38380 57860 38393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 38505 57860 38518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 38380 32622 38393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 38505 32622 38518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 36580 58098 36593
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 36705 58098 36718
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 36580 57860 36593
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 36705 57860 36718
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 36580 32622 36593
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 36705 32622 36718
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 34780 58098 34793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 34905 58098 34918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 34780 57860 34793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 34905 57860 34918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 34780 32622 34793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 34905 32622 34918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 32980 58098 32993
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 33105 58098 33118
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 32980 57860 32993
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 33105 57860 33118
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 43047 32980 43677 32986
+feedback add "Illegal overlap between nmos and ndiff (types do not connect)" medium
+box 43047 33112 43677 33118
+feedback add "Illegal overlap between ndiff and nmos (types do not connect)" medium
+box 31523 32980 32622 32993
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 33105 32622 33118
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 31305 58098 31318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 31305 57860 31318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 31305 32622 31318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 31180 58098 31193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 31180 57860 31193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 31180 32622 31193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 29380 58098 29393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 29505 58098 29518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 29380 57860 29393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 29505 57860 29518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 29380 32622 29393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 29505 32622 29518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 27580 58098 27593
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 27705 58098 27718
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 27580 57860 27593
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 27705 57860 27718
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 27580 32622 27593
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 27705 32622 27718
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 25780 58098 25793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 25905 58098 25918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 25780 57860 25793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 25905 57860 25918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 25780 32622 25793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 25905 32622 25918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 23980 58098 23993
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 24105 58098 24118
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 23980 57860 23993
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 24105 57860 24118
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 23980 32622 23993
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 24105 32622 24118
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 22180 58098 22193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 22305 58098 22318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 22180 57860 22193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 22305 57860 22318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 22180 32622 22193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 22305 32622 22318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 20380 58098 20393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 20505 58098 20518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 20380 57860 20393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 20505 57860 20518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 20380 32622 20393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 20505 32622 20518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 18705 58098 18718
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 18705 57860 18718
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 18705 32622 18718
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 18580 58098 18593
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 18580 57860 18593
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 18580 32622 18593
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 16780 58098 16793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 16905 58098 16918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 16780 57860 16793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 16905 57860 16918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 16780 32622 16793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 16905 32622 16918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 14980 58098 14993
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 15105 58098 15118
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 14980 57860 14993
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 15105 57860 15118
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 14980 32622 14993
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 15105 32622 15118
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 13180 58098 13193
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 13305 58098 13318
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 13180 57860 13193
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 13305 57860 13318
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 13180 32622 13193
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 13305 32622 13318
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 11380 58098 11393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 11505 58098 11518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 11380 57860 11393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 11505 57860 11518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 11380 32622 11393
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 11505 32622 11518
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 9580 58098 9593
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 9705 58098 9718
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 9580 57860 9593
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 9705 57860 9718
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 9580 32622 9593
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 9705 32622 9718
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 7780 58098 7793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 7905 58098 7918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 7780 57860 7793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 7905 57860 7918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 7780 32622 7793
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 7905 32622 7918
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 6105 58098 6118
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 6105 57860 6118
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 6105 32622 6118
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 57858 5980 58098 5993
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 5980 57860 5993
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 5980 32622 5993
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 4180 58098 4193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 57858 4305 58098 4318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 56999 4180 57860 4193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 56999 4305 57860 4318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 31523 4180 32622 4193
+feedback add "Illegal overlap between pmos and pdiff (types do not connect)" medium
+box 31523 4305 32622 4318
+feedback add "Illegal overlap between pdiff and pmos (types do not connect)" medium
+box 26027 63308 26500 63763
+feedback add "device missing 1 terminal;
+ connecting remainder to node a_n67_185#" pale
+box 11312 85152 11392 85380
+feedback add "Illegal overlap between mvpmos and pdiff (types do not connect)" medium
