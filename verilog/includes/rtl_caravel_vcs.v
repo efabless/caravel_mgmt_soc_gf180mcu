@@ -53,6 +53,13 @@
 `include "caravel/verilog/rtl/caravel_core.v" 		     
 `include "caravel/verilog/rtl/caravel.v" 		     
 `include "caravel/verilog/rtl/caravel_power_routing.v" 		     
+// copy right files 
+`include "caravel/verilog/rtl/copyright_block.v" 		     
+`include "caravel/verilog/rtl/user_id_textblock.v" 		     
+`include "caravel/verilog/rtl/caravel_logo.v" 		     
+`include "caravel/verilog/rtl/caravel_motto.v" 		     
+`include "caravel/verilog/rtl/open_source.v" 	
+
 
 // These blocks are manually designed 		
 // `include "caravel/verilog/gl/gpio_defaults_block_0403.v"     
