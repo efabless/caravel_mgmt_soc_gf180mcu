@@ -22,8 +22,16 @@
 -v $(CARAVEL_PATH)/gl/caravel_core.v 		     
 -v $(CARAVEL_PATH)/gl/caravel.v 		     
 -v $(CARAVEL_PATH)/gl/mprj_io_buffer.v 		     
+	     
+## copy right files 
+-v $(CARAVEL_PATH)/rtl/copyright_block.v		     
+-v $(CARAVEL_PATH)/rtl/user_id_textblock.v		     
+-v $(CARAVEL_PATH)/rtl/caravel_logo.v	     
+-v $(CARAVEL_PATH)/rtl/caravel_motto.v		     
+-v $(CARAVEL_PATH)/rtl/open_source.v
 
 ## These blocks are manually designed 		
+-v $(CARAVEL_PATH)/gl/gpio_defaults_block.v     
 -v $(CARAVEL_PATH)/gl/gpio_defaults_block_007.v     
 -v $(CARAVEL_PATH)/gl/gpio_defaults_block_087.v     
 -v $(CARAVEL_PATH)/gl/gpio_defaults_block_009.v     
