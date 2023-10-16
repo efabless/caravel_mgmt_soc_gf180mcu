@@ -236,18 +236,56 @@ extern uint32_t flashio_worker_end;
 #define PULLDOWN_SELECT	  0x080
 #define DRIVE_SELECT_MASK 0x300
 
+// temp TODO to delete after testing
 // Useful GPIO mode values
-#define GPIO_MODE_MGMT_STD_INPUT_NOPULL    0x007
-#define GPIO_MODE_MGMT_STD_INPUT_PULLDOWN  0x047
-#define GPIO_MODE_MGMT_STD_INPUT_PULLUP	   0x087
-#define GPIO_MODE_MGMT_STD_OUTPUT	   0x00b
-#define GPIO_MODE_MGMT_STD_BIDIRECTIONAL   0x009
+// #define GPIO_MODE_MGMT_STD_INPUT_NOPULL    0x007
+// #define GPIO_MODE_MGMT_STD_INPUT_PULLDOWN  0x047
+// #define GPIO_MODE_MGMT_STD_INPUT_PULLUP	   0x087
+// #define GPIO_MODE_MGMT_STD_OUTPUT	   0x00b
+// #define GPIO_MODE_MGMT_STD_BIDIRECTIONAL   0x009
 
-#define GPIO_MODE_USER_STD_INPUT_NOPULL	   0x006
-#define GPIO_MODE_USER_STD_INPUT_PULLDOWN  0x046
-#define GPIO_MODE_USER_STD_INPUT_PULLUP	   0x086
-#define GPIO_MODE_USER_STD_OUTPUT	   0x00a
-#define GPIO_MODE_USER_STD_BIDIRECTIONAL   0x00C
+// #define GPIO_MODE_USER_STD_INPUT_NOPULL	   0x006
+// #define GPIO_MODE_USER_STD_INPUT_PULLDOWN  0x046
+// #define GPIO_MODE_USER_STD_INPUT_PULLUP	   0x086
+// #define GPIO_MODE_USER_STD_OUTPUT	   0x00a
+// #define GPIO_MODE_USER_STD_BIDIRECTIONAL   0x00C
 
+enum gpio_mode {
+                GPIO_MODE_MGMT_STD_INPUT_NOPULL = 0x007,
+                GPIO_MODE_MGMT_STD_INPUT_PULLDOWN =0x047,
+                GPIO_MODE_MGMT_STD_INPUT_PULLUP=0x087,
+                GPIO_MODE_MGMT_STD_OUTPUT=0x00b,
+                GPIO_MODE_MGMT_STD_BIDIRECTIONAL=0x009,
+                GPIO_MODE_MGMT_STD_ANALOG=0x006,
+                GPIO_MODE_USER_STD_INPUT_NOPULL=0x046,
+                GPIO_MODE_USER_STD_INPUT_PULLDOWN=0x0c00,
+                GPIO_MODE_USER_STD_INPUT_PULLUP=0x086,
+                GPIO_MODE_USER_STD_OUTPUT=0x00a,
+                GPIO_MODE_USER_STD_BIDIRECTIONAL=0x00C,
+                GPIO_MODE_USER_STD_OUT_MONITORED=0x1802,
+                GPIO_MODE_USER_STD_ANALOG=0x000a};
+
+
+#define reg_user_irq_enable (*(volatile uint32_t*) CSR_USER_IRQ_0_EV_ENABLE_ADDR)
+#define CPU_TYPE VexRISC
+
+// configurations
+#define GF    1
+#define LA_SIZE 128
+#define CTRL_BITS_SIZE   13 // number of control bits in gpio control module 
+#define TRAP_SUP 1 // trap support
+#define PLL_SUP 0 // pll support
+
+// RAM PARAMETER
+#define DFF1_START_ADDR 0x00000000 
+#define DFF1_SIZE 0x400
+#define DFF2_START_ADDR 0x00000400 
+#define DFF2_SIZE 0x200 
+
+#define USER_SPACE_ADDR 0x30000000 
+#define USER_SPACE_SIZE 0xFFFFC // sum with USER_SPACE_ADDR is the address of last address
+
+#define reg_debug_2 (*(volatile unsigned int*)(USER_SPACE_ADDR + USER_SPACE_SIZE))
+#define reg_debug_1 (*(volatile unsigned int*)(USER_SPACE_ADDR + USER_SPACE_SIZE - 4))
 // --------------------------------------------------------
 #endif
