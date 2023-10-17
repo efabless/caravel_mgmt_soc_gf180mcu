@@ -256,9 +256,9 @@ enum gpio_mode {
                 GPIO_MODE_MGMT_STD_INPUT_PULLUP=0x087,
                 GPIO_MODE_MGMT_STD_OUTPUT=0x00b,
                 GPIO_MODE_MGMT_STD_BIDIRECTIONAL=0x009,
-                GPIO_MODE_MGMT_STD_ANALOG=0x006,
-                GPIO_MODE_USER_STD_INPUT_NOPULL=0x046,
-                GPIO_MODE_USER_STD_INPUT_PULLDOWN=0x0c00,
+                GPIO_MODE_MGMT_STD_ANALOG=0x00a,
+                GPIO_MODE_USER_STD_INPUT_NOPULL=0x006,
+                GPIO_MODE_USER_STD_INPUT_PULLDOWN=0x046,
                 GPIO_MODE_USER_STD_INPUT_PULLUP=0x086,
                 GPIO_MODE_USER_STD_OUTPUT=0x00a,
                 GPIO_MODE_USER_STD_BIDIRECTIONAL=0x00C,
@@ -271,10 +271,11 @@ enum gpio_mode {
 
 // configurations
 #define GF    1
-#define LA_SIZE 128
-#define CTRL_BITS_SIZE   13 // number of control bits in gpio control module 
+#define LA_SIZE 64
+#define CTRL_BITS_SIZE   10 // number of control bits in gpio control module 
 #define TRAP_SUP 1 // trap support
 #define PLL_SUP 0 // pll support
+#define REG_GPIO_INVERTED 
 
 // RAM PARAMETER
 #define DFF1_START_ADDR 0x00000000 
