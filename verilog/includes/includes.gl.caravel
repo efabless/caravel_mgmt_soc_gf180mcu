@@ -10,6 +10,7 @@
 # Caravel
 
 ## These blocks need to stay in RTL
+-v $(VERILOG_PATH)/rtl/defines.v
 -v $(CARAVEL_PATH)/rtl/defines.v 		     		
 -v $(CARAVEL_PATH)/rtl/user_defines.v		     
 -v $(CARAVEL_PATH)/rtl/simple_por.v		     
