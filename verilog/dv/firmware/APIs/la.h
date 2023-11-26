@@ -39,14 +39,8 @@ enum la_reg_number {
  */
 void LogicAnalyzer_inputEnable(enum la_reg_number reg_num , unsigned int is_enable){
     switch(reg_num){
-        #if LA_SIZE >= 64
-        case 0 : reg_la0_iena = is_enable; break;
-        case 1 : reg_la1_iena = is_enable; break;
-        #endif 
-        #if LA_SIZE >= 128
-        case 2 : reg_la2_iena = is_enable; break;
-        case 3 : reg_la3_iena = is_enable; break;
-        #endif
+        case 0 : reg_la2_iena = is_enable; break;
+        case 1 : reg_la3_iena = is_enable; break;
         default: break;
     }
 }
@@ -66,16 +60,11 @@ void LogicAnalyzer_inputEnable(enum la_reg_number reg_num , unsigned int is_enab
  */
 void LogicAnalyzer_outputEnable(enum la_reg_number reg_num , unsigned int is_enable){
     switch(reg_num){
-        #if LA_SIZE >= 64
-        case 0 : reg_la0_oenb = ~is_enable; break;
-        case 1 : reg_la1_oenb = ~is_enable; break;
-        #endif 
-        #if LA_SIZE >= 128
-        case 2 : reg_la2_oenb = ~is_enable; break;
-        case 3 : reg_la3_oenb = ~is_enable; break;
-        #endif
+        case 0 : reg_la2_oenb = ~is_enable; break;
+        case 1 : reg_la3_oenb = ~is_enable; break;
         default: break;
     }
+
 }
 /**
  * Write data through logic analyzers from firmware to user project
@@ -93,14 +82,8 @@ void LogicAnalyzer_outputEnable(enum la_reg_number reg_num , unsigned int is_ena
  */
 void LogicAnalyzer_write(enum la_reg_number reg_num , unsigned int data){
     switch(reg_num){
-        #if LA_SIZE >= 64
-        case 0 : reg_la0_data = data; break;
-        case 1 : reg_la1_data = data; break;
-        #endif 
-        #if LA_SIZE >= 128
-        case 2 : reg_la2_data = data; break;
-        case 3 : reg_la3_data = data; break;
-        #endif
+        case 0 : reg_la2_data = data; break;
+        case 1 : reg_la3_data = data; break;
         default: break;
     }
 }
@@ -119,14 +102,8 @@ void LogicAnalyzer_write(enum la_reg_number reg_num , unsigned int data){
  */
 unsigned int LogicAnalyzer_read(enum la_reg_number reg_num){
     switch(reg_num){
-        #if LA_SIZE >= 64
-        case 0 : return reg_la0_data_in;
-        case 1 : return reg_la1_data_in;
-        #endif 
-        #if LA_SIZE >= 128
-        case 2 : return reg_la2_data_in;
-        case 3 : return reg_la3_data_in;
-        #endif
+        case 0 : return reg_la2_data_in;
+        case 1 : return reg_la3_data_in;
         default: break;
     }
 }

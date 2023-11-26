@@ -262,7 +262,7 @@ enum gpio_mode {
                 GPIO_MODE_USER_STD_INPUT_PULLUP=0x086,
                 GPIO_MODE_USER_STD_OUTPUT=0x00a,
                 GPIO_MODE_USER_STD_BIDIRECTIONAL=0x00C,
-                GPIO_MODE_USER_STD_OUT_MONITORED=0x1802,
+                GPIO_MODE_USER_STD_OUT_MONITORED=0x00a,
                 GPIO_MODE_USER_STD_ANALOG=0x000a};
 
 
@@ -270,7 +270,7 @@ enum gpio_mode {
 #define CPU_TYPE VexRISC
 
 // configurations
-#define GF    1
+#define GF180    1
 #define LA_SIZE 64
 #define CTRL_BITS_SIZE   10 // number of control bits in gpio control module 
 #define TRAP_SUP 1 // trap support
